@@ -1,0 +1,219 @@
+/*Write your custom css in this file.*/
+
+ /*-------------------------------------------------
+----------------HEADER - HOME  --------------------
+---------------------------------------------------*/
+.header-container{
+    display:flex;
+    background: white;
+    justify-content:center;
+}
+.header {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    flex-wrap: wrap;
+    font-size: 2.2rem;
+    width: 1000px;
+}
+
+.bio {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.menu{
+    list-style:none;
+}
+.menu {
+  background: var(--second-color);
+  display: flex;
+}
+
+.menu li {  
+    flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 11px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight:700;
+}
+.menu li a:is(:hover,:hover,:touch){
+    background:#00C040;
+    color:white;
+}
+.menu li:nth-child(5) a{
+  background: #00C040 ;  
+  color:white;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+@media (max-width: 540px) {
+    .menu li {
+  background: #00C040 ;
+}
+.menu li:nth-child(4) a{
+  background: #6690F4 ;  
+  color:white;
+}
+.menu li a{
+  border:1px solid white;
+  color:white;
+}
+.menu li a:is(:hover,:hover,:touch){
+  background: white ;  
+  color:#00C040;
+}
+  nav {
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 40px;
+  }
+  /* fullscreen */
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: #00C040;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 28px;
+    top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on nav ul {
+    text-align: center;
+    display: block;
+    background: var(--second-color);
+  }
+
+  .menu-section.on nav ul a {
+    transition-duration: 0.5s;
+    font-size: 3rem;
+    line-height: 4rem;
+    display: block;
+    margin-top: 10%;
+  }
+}
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+/*-------------------------------------------------
+------------------- DOCUMENTATION  -----------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+/*-------------------------------------------------
+------------------------- HOME  --------------------
+---------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
